@@ -224,11 +224,11 @@ resource "aws_instance" "VPC-02-EC2-01" {
   }
 }
 
-output "VPC-01-EC2-01-Public-IP" {
+output "VPC-01-EC2-Public-IP" {
   value = aws_instance.VPC-01-EC2-01.public_ip
 }
 
-output "VPC-02-EC2-01-Public-IP" {
+output "VPC-02-EC2-Public-IP" {
   value = aws_instance.VPC-02-EC2-01.public_ip
 }
 
